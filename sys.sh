@@ -102,4 +102,6 @@ case $option in
 	       exit 2 ;;
 	'q' )  echo "Just smile!!"
 	       exit 2 ;;
+	  * )  echo "votre choix n'est pas disponible!!"
+               echo "entrez un autre choix : ";;
 esac
